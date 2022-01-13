@@ -1,0 +1,10 @@
+npm install -g firebase-tools
+
+firebase login
+
+firebase init
+
+
+"site": "danielrivas",
+
+firebase deploy --only hosting:danielrivas

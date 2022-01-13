@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1100px;
+}
+
+.container header .menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 5px solid transparent;
+    margin-top: 60px;
+    font-size: 17px;
+}
+
+.container header .menu a:hover {
+    border-bottom: 5px solid #0DF001;
+    color: rgb(35, 35, 35);
+}
+
+.container header .menu .contacto-op {
+    margin-left: 30px;
+}
+
+.container .principal {
+    display: flex;
+    height: 710px;
+}
+
+.container .principal .izq-principal {
+    float: left;
+    width: 45%;
+    margin-top: 110px;
+}
+
+.container .principal .izq-principal h1 {
+    font-weight: 600;
+    font-size: 70px;
+    color: #000000;
+}
+
+.container .principal .izq-principal p {
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+
+.container .principal .der-principal {
+    float: right;
+    width: 55%;
+    max-width: 1500px;
+    margin-left: 158px;
+    height: 614px;
+    background-image: url("img/elipse.png");
+    background-repeat: no-repeat;
+    background-size: 505px;
+}
+
+.container .principal .der-principal img {
+    margin-top: 100px;
+    margin-left: 25px;
+    width: 90%;
+}
+
+.container .info-portfolio {
+    height: 370px;
+    width: 100%;
+    text-align: justify;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.container .info-portfolio h1 {
+    font-weight: 600;
+    text-align: right;
+    font-size: 42px;
+    color: #000000;
+}
+
+.container .info-portfolio p {
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+
+.container .info-portfolio span {
+    font-weight: 600;
+    text-align: right;
+    font-size: 45px;
+    color: #0DF001;
+}
+
+.container .info-portfolio a {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+    border: 2px #000000 solid;
+    padding: 12px;
+}
+
+.container .info-portfolio a:hover {
+    background-color: #000000;
+    color: white;
+    align-items: center;
+    border: 2px #000000 solid;
+    padding: 12px;
+}
+
+.container .portfolio {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 100px;
+}
+
+.container footer {
+    height: 700px;
+}
+
+.container footer .izq-contactame {
+    width: 50%;
+    float: left;
+}
+
+.container footer .izq-contactame h1 {
+    font-weight: 600;
+    font-size: 42px;
+    color: #000000;
+}
+
+.container footer .izq-contactame a {
+    font-size: 19px;
+    color: #000000;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 50px;
+    border-bottom: 5px solid transparent;
+}
+
+.container footer .izq-contactame a:hover {
+    border-bottom: 5px solid #0DF001;
+}
+
+.container footer .izq-contactame .facebook {
+    color: #176eda;
+}
+
+.container footer .izq-contactame .instagram {
+    color: #D52533;
+}
+
+.container footer .izq-contactame .linkedin {
+    color: #0e236f;
+}
+
+.container footer .der-contactame {
+    width: 50%;
+    float: right;
+}
+
+.container footer .der-contactame h3 {
+    font-size: 30px;
+    color: #000000;
+}
+
+.container footer .der-contactame h3:hover {
+    background-color: #0DF001;
+}
+
+.container footer .der-contactame p {
+    font-size: 15px;
+    color: #000000;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+
+.container footer p {
+    width: 100%;
+    float: left;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+
+
+/*GALERIA DE IMAGENES INCRUSTADA DESDE OTRO PROYECTO OPEN SOURCE*/
+
+.image-gallery {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+    grid-gap: 20px;
+}
+
+.image-gallery .image-box {
+    position: relative;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.image-gallery .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.1s ease;
+}
+
+.image-gallery .image-box:hover img {
+    transform: scale(1.1);
+}
+
+.image-gallery .image-box .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+
+.image-gallery .image-box:hover .overlay {
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    opacity: 1;
+}
+
+.image-gallery .image-box .details {
+    text-align: center;
+}
+
+.image-gallery .image-box .details .title {
+    margin-bottom: 8px;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    top: -5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.image-gallery .image-box .details .category {
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    bottom: -5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.image-gallery .image-box:hover .details .title {
+    top: 0px;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.1s 0.1s ease;
+}
+
+.image-gallery .image-box:hover .details .title:hover{
+    background-color: #0DF001;
+}
+
+.image-gallery .image-box:hover .details .category {
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s 0.2s ease;
+}
+
+.image-gallery .image-box .details .title a,
+.image-gallery .image-box .details .category a {
+    color: #222222;
+    text-decoration: none;
+}
+
+/* Let's make it responsive */
+@media (max-width: 1200px) {
+
+    .container .principal .der-principal {
+        width: 55%;
+        margin-left: 158px;
+        height: auto;
+        background-image: url("img/elipse.png");
+        background-repeat: no-repeat;
+        background-size: 400px;
+    }
+    
+    .container .principal .der-principal img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 999px) {
+
+    .container .principal .der-principal {
+        display: none;
+    }
+    
+    .container .principal .der-principal img {
+        display: none;
+    }
+
+    .container .principal .izq-principal {
+        float: left;
+        width: 80%;
+        margin-top: 125px;
+    }
+    
+    .container .principal .izq-principal h1 {
+        font-weight: 600;
+        font-size: 80px;
+        color: #000000;
+    }
+    
+    .container .principal .izq-principal p {
+        font-size: 16px;
+        text-align: justify;
+        letter-spacing: 0.5px;
+    }
+
+    .container footer .izq-contactame {
+        width: 45%;
+        float: left;
+    }
+
+    .container footer .izq-contactame h1 {
+        font-weight: 600;
+        font-size: 40px;
+        color: #000000;
+    }
+    
+    .container footer .izq-contactame a {
+        font-size: 17px;
+        color: #000000;
+        display: inline-block;
+        text-decoration: none;
+        margin-top: 50px;
+        border-bottom: 5px solid transparent;
+    }
+
+    .container footer .der-contactame h3 {
+        font-size: 22px;
+        color: #000000;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .container header .menu a {
+        font-size: 15px;
+    }
+
+    .container .principal .izq-principal h1 {
+        font-weight: 600;
+        font-size: 60px;
+        color: #000000;
+    }
+    
+    .container .principal .izq-principal p {
+        font-size: 14px;
+        text-align: justify;
+        letter-spacing: 0.5px;
+    }
+
+    .container .info-portfolio {
+        height: 370px;
+        width: 100%;
+        text-align: justify;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+    
+    .container .info-portfolio h1 {
+        font-weight: 600;
+        text-align: right;
+        font-size: 34px;
+        color: #000000;
+    }
+    
+    .container .info-portfolio p {
+        margin-top: 25px;
+        font-size: 14px;
+        text-align: justify;
+        letter-spacing: 0.5px;
+    }
+    
+    .container .info-portfolio span {
+        font-weight: 600;
+        text-align: right;
+        font-size: 34px;
+        color: #0DF001;
+    }
+    
+    .container .info-portfolio a {
+        font-family: "Raleway", sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        color: #000000;
+        border: 2px #000000 solid;
+        padding: 12px;
+    }
+
+    .container .info-portfolio {
+        height: 420px;
+    }
+
+    .image-gallery {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-auto-rows: 250px;
+    }
+
+    .image-gallery .image-box:nth-child(7n + 1) {
+        grid-column: unset;
+        grid-row: unset;
+    }
+
+    .container footer .izq-contactame {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    .container footer .izq-contactame h1 {
+        font-weight: 600;
+        font-size: 35px;
+        color: #000000;
+    }
+    
+    .container footer .izq-contactame a {
+        font-size: 14px;
+        color: #000000;
+        display: inline-block;
+        text-decoration: none;
+        margin-top: 50px;
+        border-bottom: 5px solid transparent;
+    }
+
+    .container footer .der-contactame {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 70px;
+    }
+    
+    .container footer .der-contactame h3 {
+        font-size: 27px;
+        color: #000000;
+    }
+    
+    .container footer .der-contactame h3:hover {
+        background-color: #0DF001;
+    }
+    
+    .container footer .der-contactame p {
+        display: none;
+    }
+
+}

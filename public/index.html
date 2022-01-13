@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Hi, I'm Daniel Rivas, Dev, Designer and Web Dev HTML5, CSS3, Vanilla JS, geek of tech!, see more here!">
+    <meta name="keywords" content="html, css, javascript, photoshop">
+    <meta name="author" content="Daniel Estuardo Rivas Herrera">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+
+    <title>Daniel &mdash; WebSite</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <nav class="menu">
+                <a href="#portfolio" data-aos="fade-down" data-aos-delay="150">Proyectos</a>
+                <a href="#contacto" class="contacto-op" data-aos="fade-down" data-aos-delay="250">Contacto</a>
+            </nav>
+        </header>
+
+        <main class="principal">
+
+            <div class="izq-principal">
+                <h1 data-aos="fade-right" data-aos-delay="500">Hola!</h1>
+                <p data-aos="fade-right" data-aos-delay="600">Mi nombre es Daniel Rivas 👋,
+                    soy freelancer, me gusta mucho
+                    crear cosas útiles y funcionales, con buenos estándares de calidad, poseo
+                    <strong>experiencia en el área de Front End, Back End y QA de 
+                    manera profesional</strong>,
+                    vivo en Guatemala, puedes ver en la sección de
+                    proyectos el portafolio de mis desarrollos,
+                    si necesitas conocerme con más detalle <strong>te dejo dos botones para
+                    te descargues mi Curriculum Vitae</strong> , contáctame!</p>
+            </div>
+
+            <div class="der-principal" data-aos="fade-left" data-aos-delay="700">
+                <img src="img/logo.png" alt="">
+                <!--circulo negro acá-->
+            </div>
+
+        </main>
+
+        <section class="info-portfolio" id="portfolio">
+            <h1 data-aos="fade-left" data-aos-delay="300">Construyendo productos de <br>buena calidad, útiles y
+                <span>funcionales.</span></h1>
+            <p data-aos="fade-up" data-aos-delay="400">He tenido la oportunidad de desarrollar desde
+                cero muchos proyectos interesantes, desde páginas web informativas con tecnologías del
+                Front End, hasta aplicaciones robustas con PHP y Java del lado del Back End, siempre utilizando
+                SQL y Firebase como base de datos Relacional y No Relacional sucesivamente, puedes ver la
+                construccion de cada uno en el link que aparece en cada imagen.
+            </p>
+            <br>
+            <a href="#" data-aos="zoom-in" data-aos-delay="600">CV Español</a>
+            <a href="#" data-aos="zoom-in" data-aos-delay="700">CV English</a>
+        </section>
+
+        <section class="portfolio" data-aos="fade-up" data-aos-delay="500">
+            
+            <div class="image-gallery">
+
+                <div class="image-box">
+                    <img src="proyectos/guatemala-web.png" target="_blank" alt="img.jpg" />
+                    <div class="overlay">
+                        <div class="details">
+                            <h3 class="title">
+                                <a href="https://g-uatemala.web.app/" target="_blank">Visita Guatemala</a>
+                            </h3>
+                            <span class="category">
+                                <a href="#">Sitio Web con destinos turisticos
+                                    e información de Guatemala construido con HTML5, CSS3, JavaScript.
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="image-box">
+                    <img src="proyectos/sge-php.png" target="_blank" alt="img.jpg" />
+                    <div class="overlay">
+                        <div class="details">
+                            <h3 class="title">
+                                <a href="https://github.com/r1h1/sistemaARD" target="_blank">Punto de Venta</a>
+                            </h3>
+                            <span class="category">
+                                <a href="#">Sistema de Gestión Empresarial, con PHP,
+                                    MySQL, Bootstrap y JavaScript.
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="image-box">
+                    <img src="proyectos/portafolio-anterior.png" target="_blank" alt="img.jpg" />
+                    <div class="overlay">
+                        <div class="details">
+                            <h3 class="title">
+                                <a href="https://d-rivash.web.app" target="_blank">Portafolio Anterior</a>
+                            </h3>
+                            <span class="category">
+                                <a>Portafolio anterior, con HTML5, SASS y
+                                    JavaScript, alojado en Firebase.
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-box">
+                    <img src="proyectos/appcitasjonas.png" target="_blank" alt="img.jpg" />
+                    <div class="overlay">
+                        <div class="details">
+                            <h3 class="title">
+                                <a href="https://salonj.web.app" target="_blank">Citas para Salón de Belleza</a>
+                            </h3>
+                            <span class="category">
+                                <a href="#">Firebase y JavaScript como BackEnd,
+                                    Bootstrap como FrontEnd.
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-box">
+                    <img src="proyectos/sistema-tickets.png" target="_blank" alt="img.jpg" />
+                    <div class="overlay">
+                        <div class="details">
+                            <h3 class="title">
+                                <a href="https://github.com/r1h1/ticketsJava" target="_blank">Sistema de Tickets</a>
+                            </h3>
+                            <span class="category">
+                                <a href="#">Administración de Soporte a usuarios,
+                                    Hecho con Java JSP y MySQL.
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-box">
+                    <img src="proyectos/tubac-web.png" target="_blank" alt="img.jpg" />
+                    <div class="overlay">
+                        <div class="details">
+                            <h3 class="title">
+                                <a href="https://github.com/r1h1/appcitas">Sistema Médico</a>
+                            </h3>
+                            <span class="category">
+                                <a href="#">Construido con Java JSP y MySQL,
+                                    con lógica de citas llenas y vacías.
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="izq-contactame" id="contacto">
+                <h1 data-aos="fade-left" data-aos-delay="450">Contactame</h1>
+                <a href="https://www.facebook.com/drivash/" target="_blank" class="facebook" data-aos="fade-up"
+                    data-aos-delay="600">facebook</a>
+                <a href="https://www.instagram.com/_drivash/" target="_blank" style="margin-left: 40px;"
+                    class="instagram" data-aos="fade-up" data-aos-delay="700">instagram</a>
+                <a href="https://www.linkedin.com/in/drivash/" target="_blank" style="margin-left: 40px;"
+                    class="linkedin" data-aos="fade-up" data-aos-delay="800">linkedin</a>
+            </div>
+            <div class="der-contactame">
+                <h3 data-aos="fade-left" data-aos-delay="700">→ danielrivas1.gt@gmail.com</h3>
+                <p data-aos="fade-left" data-aos-delay="900">Si necesitas ayuda con algún proyecto
+                    que tengas en mente, ya sea personal o empresarial, puedes contactarme en cualquiera
+                    de mis redes sociales, o por correo electrónico con el asunto "DESEO PROYECTO" y
+                    te atenderé en un lapso de 1 a 24 horas, gracias por llegar hasta acá y por el
+                    interés a mi trabajo, será un verdadero gusto poder ser la solución a tu futuro proyecto.
+                </p>
+            </div>
+            <p>Con ❤️, Daniel Rivas.</p>
+        </footer>
+
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="text/javascript">
+        // Import the functions you need from the SDKs you need
+        import {
+            initializeApp
+        } from "firebase/app";
+        import {
+            getAnalytics
+        } from "firebase/analytics";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyDBRBpYoyrG0xUgTOHB-dibojYE-FRmMjg",
+            authDomain: "drivash1.firebaseapp.com",
+            projectId: "drivash1",
+            storageBucket: "drivash1.appspot.com",
+            messagingSenderId: "456236341480",
+            appId: "1:456236341480:web:99a39bf2f605216e7f515d",
+            measurementId: "G-EFVZV15RQB"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+</body>
+
+</html>
