@@ -1,1 +1,355 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Raleway', sans-serif;}body{overflow-x: hidden;}.container{max-width: 1100px;}.container header .menu a{display: inline-block; text-decoration: none; color: #000000; border-bottom: 5px solid transparent; margin-top: 60px; font-size: 17px;}.container header .menu a:hover{border-bottom: 5px solid #0DF001; color: rgb(35, 35, 35);}.container header .menu .contacto-op{margin-left: 30px;}.container .principal{display: flex; height: 700px;}.container .principal .izq-principal{float: left; width: 50%; margin-top: 90px;}.container .principal .izq-principal h1{font-weight: 600; margin-top: 40px; font-size: 50px; color: #000000;}.container .principal .izq-principal p{font-size: 15px; text-align: justify; letter-spacing: 0.5px;}.container .principal .der-principal{float: right; width: 50%; margin-left: 130px; height: 614px; background-image: url("img/elipse-2.png"); background-repeat: no-repeat; background-size: 500px;}.container .info-portfolio{height: auto; width: 82%; margin-bottom: 40px; float: right; text-align: justify; font-size: 15px; letter-spacing: 0.5px;}.container .info-portfolio h1{font-weight: 600; text-align: right; font-size: 35px; color: #000000;}.container .info-portfolio p{margin-top: 25px; font-size: 15px; text-align: justify; letter-spacing: 0.5px;}.container .info-portfolio a{font-family: "Raleway", sans-serif; font-size: 15px; text-decoration: none; color: #000000; border: 2px #000000 solid; padding: 12px;}.container .info-portfolio a:hover{background-color: #000000; color: white; align-items: center; border: 2px #000000 solid; padding: 12px;}.container .proyectos{width: 100%; float: left; margin-bottom: 140px; height: auto;}.container .proyectos .card-group .card .card-img-top:hover{padding: 10px;}.container .proyectos .card-group .card .card-body .card-title{font-weight: 600;}.container .proyectos .card-group .card .card-body .card-text{font-size: 15px;}.container footer{height: 400px;}.container footer .izq-contactame{width: 50%; float: left;}.container footer .izq-contactame h1{font-weight: 600; font-size: 35px; color: #000000;}.container footer .izq-contactame a{font-size: 18px; color: #000000; display: inline-block; text-decoration: none; margin-top: 50px; border-bottom: 5px solid transparent;}.container footer .izq-contactame a:hover{border-bottom: 5px solid #0DF001;}.container footer .izq-contactame .facebook{color: #176eda;}.container footer .izq-contactame .instagram{color: #D52533;}.container footer .izq-contactame .linkedin{color: #0e236f;}.container footer .der-contactame{width: 50%; float: right;}.container footer .der-contactame h3{font-size: 30px; color: #000000;}.container footer .der-contactame p{font-size: 15px; color: #000000; text-align: justify; letter-spacing: 0.5px;}.container footer p{width: 100%; float: left; font-size: 15px; margin-top: 25px; margin-bottom: 55px; text-align: center;}@media (max-width: 1200px){.container .principal{height: 700px;}.container .principal .der-principal{float: right; width: 40%; margin-top: 50px; margin-left: 50px; height: 614px; background-image: url("img/elipse-2.png"); background-repeat: no-repeat; background-size: 400px;}.container .principal .izq-principal{margin-top: 150px; width: 50%;}}@media (max-width: 984px){.container .principal{display: flex;}.container .principal .izq-principal{margin-top: 100px; width: 60%; float: left;}.container .principal .izq-principal .btns{text-align: center; margin-top: 20px;}.container .principal .der-principal{width: 40%; margin-top: 150px; background-size: 340px; float: left;}.container .principal .izq-principal h1{margin-bottom: 20px; text-align: center;}.container .principal .izq-principal p{margin: auto; text-align: justify; width: 80%;}.container .info-portfolio{width: 100%;}.container .info-portfolio h1{margin-bottom: 40px;}.container .info-portfolio p{margin: auto; width: 80%;}.container .info-portfolio h1{text-align: center;}.container .info-portfolio h1{font-size: 30px;}.container footer{height: auto;}.container footer .izq-contactame{width: 100%; float: left; text-align: center;}.container footer .der-contactame{width: 100%; float: left; text-align: center;}.container footer .der-contactame h3{margin-top: 40px; margin-bottom: 90px; font-size: 24px;}.container footer .der-contactame p{display: none;}}@media (max-width: 906px){.container .principal .der-principal{display: none;}.container .principal .izq-principal{width: 100%; float: left;}}@media (max-width: 576px){.container header .menu a{font-size: 16px;}.container .principal .izq-principal h1{font-size: 40px;}.container .principal .izq-principal p{font-size: 16px;}.container .info-portfolio{width: 100%;}.container .proyectos .fila .columna{flex: 100%;}.container .proyectos .fila .columna img{width: 100%;}.container .info-portfolio h1{font-size: 25px;}.container .info-portfolio p{font-size: 14px;}.container footer{height: auto;}.container footer .izq-contactame{width: 100%; float: left; text-align: center;}.container footer .izq-contactame h1{font-size: 25px;}.container footer .izq-contactame a{font-size: 15px;}.container footer .der-contactame{width: 100%; float: left; text-align: center;}.container footer .der-contactame h3{margin-top: 40px; font-size: 21px;}}@media (max-width: 410px){.container .principal .izq-principal{width: 100%;}.container .principal .izq-principal h1{font-size: 35px;}.container .principal .izq-principal p{font-size: 14px;}.container .info-portfolio{width: 100%;}.container .info-portfolio h1{font-size: 22px;}.container .info-portfolio p{font-size: 14px;}.container footer{height: auto;}.container footer .izq-contactame{width: 100%; float: left; text-align: center;}.container footer .izq-contactame h1{font-size: 22px;}.container footer .izq-contactame a{font-size: 15px;}.container footer .der-contactame{width: 100%; float: left; text-align: center;}.container footer .der-contactame h3{margin-top: 40px; font-size: 20px;}}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+.container {
+    max-width: 1100px;
+}
+.container header .menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 5px solid transparent;
+    margin-top: 60px;
+    font-size: 17px;
+}
+.container header .menu a:hover {
+    border-bottom: 5px solid #0df001;
+    color: rgb(35, 35, 35);
+}
+.container header .menu .contacto-op {
+    margin-left: 30px;
+}
+.container .principal {
+    display: flex;
+    height: 700px;
+}
+.container .principal .izq-principal {
+    float: left;
+    width: 50%;
+    margin-top: 90px;
+}
+.container .principal .izq-principal h1 {
+    font-weight: 600;
+    margin-top: 40px;
+    font-size: 50px;
+    color: #000000;
+}
+.container .principal .izq-principal p {
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+.container .principal .der-principal {
+    float: right;
+    width: 50%;
+    margin-left: 130px;
+    height: 614px;
+    background-image: url("img/elipse-2.png");
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+.container .info-portfolio {
+    height: auto;
+    width: 82%;
+    margin-bottom: 40px;
+    float: right;
+    text-align: justify;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.container .info-portfolio h1 {
+    font-weight: 600;
+    text-align: right;
+    font-size: 35px;
+    color: #000000;
+}
+.container .info-portfolio p {
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+.container .info-portfolio a {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+    border: 2px #000000 solid;
+    padding: 12px;
+}
+.container .info-portfolio a:hover {
+    background-color: #000000;
+    color: white;
+    align-items: center;
+    border: 2px #000000 solid;
+    padding: 12px;
+}
+.container .proyectos {
+    width: 100%;
+    float: left;
+    margin-bottom: 140px;
+    height: auto;
+}
+.container .proyectos .card-group .card .card-img-top:hover {
+    padding: 10px;
+}
+.container .proyectos .card-group .card .card-body .card-title {
+    font-weight: 600;
+}
+.container .proyectos .card-group .card .card-body .card-text {
+    font-size: 15px;
+}
+.container footer {
+    height: 400px;
+}
+.container footer .izq-contactame {
+    width: 50%;
+    float: left;
+}
+.container footer .izq-contactame h1 {
+    font-weight: 600;
+    font-size: 35px;
+    color: #000000;
+}
+.container footer .izq-contactame a {
+    font-size: 18px;
+    color: #000000;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 50px;
+    border-bottom: 5px solid transparent;
+}
+.container footer .izq-contactame a:hover {
+    border-bottom: 5px solid #0df001;
+}
+.container footer .izq-contactame .facebook {
+    color: #176eda;
+}
+.container footer .izq-contactame .instagram {
+    color: #d52533;
+}
+.container footer .izq-contactame .linkedin {
+    color: #0e236f;
+}
+.container footer .der-contactame {
+    width: 50%;
+    float: right;
+}
+.container footer .der-contactame h3 {
+    font-size: 30px;
+    color: #000000;
+}
+.container footer .der-contactame p {
+    font-size: 15px;
+    color: #000000;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+.container footer p {
+    width: 100%;
+    float: left;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+
+/*RESPONSIVE*/
+@media (max-width: 1200px) {
+    .container .principal {
+        height: 700px;
+    }
+    .container .principal .der-principal {
+        float: right;
+        width: 40%;
+        margin-top: 50px;
+        margin-left: 50px;
+        height: 614px;
+        background-image: url("img/elipse-2.png");
+        background-repeat: no-repeat;
+        background-size: 400px;
+    }
+    .container .principal .izq-principal {
+        margin-top: 150px;
+        width: 50%;
+    }
+}
+@media (max-width: 984px) {
+    .container .principal {
+        display: flex;
+    }
+    .container .principal .izq-principal {
+        margin-top: 100px;
+        width: 60%;
+        float: left;
+    }
+    .container .principal .izq-principal .btns {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .container .principal .der-principal {
+        width: 40%;
+        margin-top: 150px;
+        background-size: 340px;
+        float: left;
+    }
+    .container .principal .izq-principal h1 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .container .principal .izq-principal p {
+        margin: auto;
+        text-align: justify;
+        width: 80%;
+    }
+    .container .info-portfolio {
+        width: 100%;
+    }
+    .container .info-portfolio h1 {
+        margin-bottom: 40px;
+    }
+    .container .info-portfolio p {
+        margin: auto;
+        width: 80%;
+    }
+    .container .info-portfolio h1 {
+        text-align: center;
+    }
+    .container .info-portfolio h1 {
+        font-size: 30px;
+    }
+    .container footer {
+        height: auto;
+    }
+    .container footer .izq-contactame {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .container footer .der-contactame {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .container footer .der-contactame h3 {
+        margin-top: 40px;
+        margin-bottom: 90px;
+        font-size: 24px;
+    }
+    .container footer .der-contactame p {
+        display: none;
+    }
+}
+@media (max-width: 906px) {
+    .container .principal .der-principal {
+        display: none;
+    }
+    .container .principal .izq-principal {
+        width: 100%;
+        float: left;
+    }
+}
+@media (max-width: 576px) {
+    .container header .menu a {
+        font-size: 17px;
+    }
+    .container .principal .izq-principal h1 {
+        font-size: 50px;
+    }
+    .container .principal .izq-principal p {
+        font-size: 16px;
+    }
+    .container .info-portfolio {
+        width: 100%;
+    }
+    .container .proyectos .fila .columna {
+        flex: 100%;
+    }
+    .container .proyectos .fila .columna img {
+        width: 100%;
+    }
+    .container .info-portfolio h1 {
+        font-size: 35px;
+    }
+    .container .info-portfolio p {
+        font-size: 15px;
+    }
+    .container footer {
+        height: auto;
+    }
+    .container footer .izq-contactame {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .container footer .izq-contactame h1 {
+        font-size: 35px;
+    }
+    .container footer .izq-contactame a {
+        font-size: 16px;
+    }
+    .container footer .der-contactame {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .container footer .der-contactame h3 {
+        margin-top: 45px;
+        font-size: 21px;
+    }
+}
+@media (max-width: 410px) {
+    .container .principal .izq-principal {
+        width: 100%;
+    }
+    .container .principal .izq-principal h1 {
+        font-size: 60px;
+    }
+    .container .principal .izq-principal p {
+        font-size: 17px;
+    }
+    .container .info-portfolio {
+        margin-top: 100px;
+        width: 100%;
+    }
+    .container .info-portfolio h1 {
+        width: 90%;
+        margin: auto;
+        font-size: 50px;
+    }
+    .container .info-portfolio p {
+        margin-top: 27px;
+        font-size: 17px;
+    }
+    .container footer {
+        height: auto;
+    }
+    .container footer .izq-contactame {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .container footer .izq-contactame h1 {
+        font-size: 45px;
+    }
+    .container footer .izq-contactame a {
+        font-size: 19px;
+    }
+    .container footer .der-contactame {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .container footer .der-contactame h3 {
+        margin-top: 50px;
+        font-size: 20px;
+    }
+}

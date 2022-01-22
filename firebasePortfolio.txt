@@ -7,4 +7,4 @@ firebase init
 
 "site": "danielrivas",
 
-firebase deploy --only hosting:danielrivas
+firebase deploy
